@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-@media (max-width: 800px) {
+ @media (max-width: 800px) { 
 body{
     margin: 0;
     padding: 0;
@@ -60,17 +60,8 @@ figure {
 
   h1 {
       text-align: center;
-    }
-
-    #imgs { 
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 35%;
-        
-    }
-    form {
-        text-align: center;
+      color:black;
+      font-weight: bold;
     }
 
     .footer {
@@ -88,6 +79,15 @@ figure {
         margin-right: auto;
         width: 20%;
       }
+
+      p {
+        text-align: center;
+      }
+
+      #video {
+        text-align: center;
+      }
+
     }
 
     @media(min-width: 800px){
@@ -149,19 +149,10 @@ figure {
         
           h1 {
               text-align: center;
+              color:black;
+              font-weight: bold;
             }
-        
-            #imgs { 
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 35%;
-                
-            }
-            form {
-                text-align: center;
-            }
-        
+           
             .footer {
                 position: fixed;
                 padding: 10px 10px 0px 10px;
@@ -171,13 +162,20 @@ figure {
                 color: white;
                 text-align: left;
               }
-              /* #content {
-                display: inline-grid;
+              #content {
+                display: grid;
                 grid-template-columns: repeat(2, [col-start] 1fr);
-                grid-gap: 40px;
-              } */
+                column-gap: 20px;
 
 
+              }
+
+              p {
+                text-align: center;
+              }
+              #video {
+                text-align: center;
+              }
 
             }
 
